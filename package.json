@@ -4,7 +4,7 @@
   "description": "Docker Container",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "echo hello"
   },
   "author": "Surendra Kanigiri",
   "license": "ISC",
