@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Docker Container",
   "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
   "author": "Surendra Kanigiri",
   "license": "ISC",
   "dependencies": {
