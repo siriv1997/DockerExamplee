@@ -21,3 +21,6 @@ sudo docker run -d \
 --name mongo-express \
 -e  ME_CONFIG_MONGODB_SERVER="mongodb" \
 mongo-express
+
+
+<!-- Docker Secret token 495d699b-8b7d-4b53-b663-d19bf6a604fb -->
