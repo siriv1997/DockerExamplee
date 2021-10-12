@@ -10,8 +10,7 @@ pipeline{
         stage("build"){
             steps
             {
-                sh 'Dockerfile'
-                // sh 'docker build -t siriv1997/dockerexam:latest .'
+                sh 'docker build -t siriv1997/dockerexam:latest .'
             }
         }
 
