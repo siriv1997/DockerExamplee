@@ -1,7 +1,7 @@
 // CODE_CHANGES = getGitChanges()
 
 pipeline{
-    agent any
+    agent { dockerfile true }
     environment{
         NEW_VERSION = '1.3.0'
         DockerCredentials = credentials('DockerCred')
